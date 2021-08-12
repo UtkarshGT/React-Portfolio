@@ -1,0 +1,41 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.tall-80 {
+  min-height: 80vh;
+}
+
+.m-b {
+  margin-bottom: 4em;
+}
+.m-b-s {
+  margin-bottom: 1em;
+}
+.link {
+  margin: 5px;
+  color: #3f3f3f;
+}
+
+.profile-pic {
+  width: 250px;
+  max-width: 50%;
+  border-radius: 50%;
+  padding: 1.5em 0em;
+}
+
+.welcome-text {
+  font-size: 1.5em;
+  color: grey;
+  line-height: 1.4;
+}
