@@ -16,8 +16,8 @@ const SkillsData = [
     percent: 50
   },
   {
-    name: "Hello World",
-    percent: 50
+    name: "Data Analysis",
+    percent: 60
   }
 ];
 
