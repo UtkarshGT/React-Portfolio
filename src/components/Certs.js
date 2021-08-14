@@ -1,38 +1,26 @@
 import "./Intro.css";
+import CertsData from "../content/CertsData";
 
-import { Typography } from "@material-ui/core";
 import { List, ListItem, ListItemText } from "@material-ui/core";
 
 export default function Certs() {
   return (
     <div className="m-b-s">
-      <Typography align="center" variant="h5">
-        Certs
-      </Typography>
+      <div className="subheader use-font center-text m-b-xs">
+        Certifications
+      </div>
       <List>
-        <ListItem>
-          <ListItemText
-            style={{ textAlign: "center" }}
-            primary="ListItem"
-            secondary="Jfidfj"
-          />
-        </ListItem>
-        <ListItem>
-          <ListItemText style={{ textAlign: "center" }} primary="ListItem" />
-        </ListItem>
-        <ListItem
-          button
-          component="a"
-          href="https://www.google.com/"
-          target="_blank"
-          rel="noopener"
-        >
-          <ListItemText
-            style={{ textAlign: "center" }}
-            primary="ListItem"
-            secondary="Jfidfj"
-          />
-        </ListItem>
+        {CertsData.map((value, index) => {
+          return (
+            <ListItem key={index}>
+              <ListItemText
+                className="center-text"
+                primary={value.name}
+                secondary={value.description}
+              />
+            </ListItem>
+          );
+        })}
       </List>
     </div>
   );

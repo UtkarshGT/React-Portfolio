@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -17,14 +20,13 @@
 }
 
 .m-b {
-  margin-bottom: 4em;
+  margin-bottom: 6em;
 }
 .m-b-s {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
-.link {
-  margin: 5px;
-  color: #3f3f3f;
+.m-b-xs {
+  margin-bottom: 1em;
 }
 
 .profile-pic {
@@ -34,8 +36,47 @@
   padding: 1.5em 0em;
 }
 
+.name {
+  padding: 0.1em 0.3em;
+  border-radius: 5px;
+  background-color: #dee2ff;
+  margin-bottom: 15px;
+}
+.ubuntu-font {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.use-font {
+  font-family: "Balsamiq Sans", cursive;
+}
+
 .welcome-text {
   font-size: 1.5em;
   color: grey;
   line-height: 1.4;
+  white-space: pre-line;
+  vertical-align: bottom;
+}
+
+.grey-text {
+  color: #666666;
+}
+
+.text-space {
+  letter-spacing: 0.1em;
+}
+
+.link-text {
+  color: #666666;
+}
+.link-text:hover {
+  color: #0f6ecd;
+  text-decoration: none;
+}
+.subheader {
+  font-size: 1.5em;
+}
+
+.center-text {
+  text-align: center;
 }
