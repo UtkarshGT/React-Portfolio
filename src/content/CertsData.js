@@ -1,7 +1,11 @@
 const CertsData = [
   {
+    name: "ML with Python",
+    description: "Aug-21: Classical ML Algos and case study"
+  },
+  {
     name: "DSA in Python",
-    description: "April-21: Using most efficient DS and optimization"
+    description: "Apr-21: Using most efficient DS and optimization"
   },
   {
     name: "freeCodeCamp Responsive Web Design",
