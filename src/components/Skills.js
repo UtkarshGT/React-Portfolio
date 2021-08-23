@@ -16,7 +16,19 @@ export default function Skills() {
                 <Typography className="ubuntu-font" gutterBottom>
                   {value.name}
                 </Typography>
-                <LinearProgress variant="determinate" value={value.percent} />
+                <div className="progress">
+                  <div
+                    className="progress-bar"
+                    role="progressbar"
+                    style={{
+                      width: `${value.percent}%`,
+                      backgroundColor: "#7081ff"
+                    }}
+                    aria-valuenow={value.percent}
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
               </Paper>
             </Grid>
           );
