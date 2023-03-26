@@ -1,4 +1,3 @@
-import { Typography } from "@material-ui/core";
 import IntroData from "../content/IntroData";
 import "./Intro.css";
 
